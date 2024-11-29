@@ -5,13 +5,13 @@ for (let i = 1; i <= 100; i++) {
     }
     else if (i % 3 == 0) {
 
-        console.log("fizz");
+        console.log("Fizz");
     }
     else if (i % 5 == 0) {
-        console.log("buzz");
+        console.log("Buzz");
     }
     else if (i % 15 == 0) {
-        console.log("fizzBuzz")
+        console.log("FizzBuzz")
     }
     else {
         console.log(i);
